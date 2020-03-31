@@ -3,10 +3,35 @@ body {
 }
 
 /* STILI HEADER */
+header {
+    background: #0248ff url('img/bg-home.jpg');
+    background-repeat: repeat;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
 .header-top {
     color: #5b6987;
     padding-top: 15px;
+    border-bottom: 1px solid #e5e8ed;
+    background-color: white;
+}
 
+.header-bottom {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-bottom2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+
+.navbar.visible-md.visible-lg {
+    padding-top: 15px;
 }
 
 .Banner {
@@ -14,7 +39,7 @@ body {
     white-space: nowrap;
     text-overflow: ellipsis;
     font-size: 11px;
-    padding-left: 0
+    padding-bottom: 10px;
 }
 
 .Banner > p{
@@ -39,4 +64,42 @@ body {
     padding: 4px 8px;
     text-align: center;
     margin-right: 10px;
+}
+
+.nav-menu-lg {
+    color: #031b4e;
+}
+
+.logo {
+    padding-left: 0;
+}
+
+.logo2 {
+    color: white;
+    padding-left: 0;
+}
+
+.DigitalOcean {
+    width: 190px;
+    height: 45px;
+}
+
+#sign-up {
+    border-color: #0069ff;
+    color: #0069ff;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sign-up:hover {
+    background-color: #0069ff;
+    border-color: #0069ff;
+    color: white;
+}
+
+#hamburger {
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0) ;
+    border-color:rgba(0, 0, 0, 0);
 }

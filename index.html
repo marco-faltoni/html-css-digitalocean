@@ -12,7 +12,7 @@
 
     <body>
         <header class="col-xs-12">
-            <div class="header-top">
+            <div class="row header-top">
                 <div class="Banner text-left new col-xs-12 col-md-7">
                     <span id="bannerino" class="text-uppercase">new</span>
                     <p> Working on something related to COVID-19? DigitalOcean would like to help ❯</p>
@@ -22,16 +22,40 @@
                 </div>
             </div>
 
-            <div class="header-bottom">
-                <div class="logo col-md-2">
+            <div class="row header-bottom">
+                <nav class="navbar visible-md visible-lg">
+                    <div class="logo col-md-2">
+                        <img class="img-responsive DigitalOcean" src="img/DigitalOcean.svg" alt="Logo DigitalOcean">
+                    </div>
 
-                </div>
-                <div class="menu col-md-4">
+                    <div>
+                        <ul id="nav-menu-lg" class="nav navbar-nav">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle nav-menu-lg" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                            </li>
+                            <li class="active"><a class="nav-menu-lg" href="#">Marketplace <span class="sr-only">Marketplace</span></a></li>
+                            <li><a class="nav-menu-lg" href="#">Costumers</a></li>
+                            <li><a class="nav-menu-lg" href="#">Partners</a></li>
+                            <li class="dropdown"><a href="#" class=" nav-menu-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<span class="caret"></span></a>
+                            <li class="nav-menu-lg"><a class=" nav-menu-lg" href="#">Pricing</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-right">
+                            <button type="submit" id="sign-up" class="btn btn-default">Sign Up</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="row header-bottom2">
+                <nav class="navbar visible-xs visible-sm">
+                    <div class="col-xs-8 logo2">
+                        <img class="img-responsive DigitalOcean" src="img/DigitalOcean.svg" alt="Logo DigitalOcean">
+                    </div>
 
-                </div>
-                <div class="signup col-md-2 col-md-offset-4">
-
-                </div>
+                    <div class="col-xs-4 menu-hamburger text-right">
+                        <button type="button" id="hamburger" class="btn btn-primary">
+                            <i class="fas fa-bars fa-2x"></i>
+                        </button>
+                    </div>
+                </nav>
             </div>
 
         </header>

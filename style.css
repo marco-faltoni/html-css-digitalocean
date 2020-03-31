@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* STILI HEADER */
+.header-top {
+    color: #5b6987;
+    padding-top: 15px;
+
+}
+
+.Banner {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    padding-left: 0
+}
+
+.Banner > p{
+    cursor: pointer;
+    display: inline;
+    font-weight: 700;
+}
+
+.various > p {
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 25px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+#bannerino {
+    background-color: #00d7d2;
+    border-radius: 7px;
+    color: #031b4e;
+    cursor: default;
+    padding: 4px 8px;
+    text-align: center;
+    margin-right: 10px;
+}

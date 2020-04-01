@@ -18,7 +18,7 @@ header {
 }
 
 .containermax {
-    
+
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -119,6 +119,10 @@ header {
     color: white;
 }
 
+.menu-hamburger {
+    padding-right: 0;
+}
+
 #hamburger {
     color: #fff;
     background-color:rgba(0, 0, 0, 0) ;
@@ -126,7 +130,6 @@ header {
     padding-left: 0;
     padding-right: 0
 }
-
 
 /* INIZIO JUMBOTRON */
 
@@ -236,6 +239,7 @@ h2 {
     background: #f2f8ff;
     border: 1px solid rgba(0,105,255,.2);
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .btn-info:hover {
@@ -251,7 +255,7 @@ h2 {
 .fab.fa-google, .fab.fa-github {
     position: absolute;
     left: 18%;
-    top: 34%;
+    top: 29%;
 }
 
 #separatore2 {
@@ -301,10 +305,34 @@ p > a:hover {
 /* INIZIO SEZIONE TESTO 1 */
 
 .cont-text1 {
-    padding: 60px 0px;
+    padding: 60px 15px;
 
 }
 
 .first-text > p {
     font-size: 21px;
+
+}
+
+blockquote {
+    border-left: 2.5px solid #eee
+}
+
+blockquote > p {
+    color: rgba(3,27,78,.5);
+}
+
+.text-content1 {
+    max-width: 900px;
+    padding-top: 30px;
+}
+
+.quadrante {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.grassetto {
+    font-weight: 700;
+    color: #031b4e;
 }

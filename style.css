@@ -17,6 +17,13 @@ header {
     background-color: #0248ff;
 }
 
+.containermax {
+    
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .header-top {
     color: #5b6987;
     padding-top: 15px;

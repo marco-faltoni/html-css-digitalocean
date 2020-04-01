@@ -3,6 +3,7 @@ body {
     color: rgba(3,27,78,.7)
 }
 
+
 /* HEADER */
 
 @media all and (min-width: 768px) {
@@ -21,6 +22,8 @@ header {
     padding-top: 15px;
     border-bottom: 1px solid #e5e8ed;
     background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-bottom {
@@ -79,18 +82,20 @@ header {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.logo {
-    padding-left: 0;
-}
-
 .logo2 {
     color: white;
-    padding-left: 0;
 }
 
 .DigitalOcean {
     width: 190px;
     height: 45px;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-right {
+        margin-right: 0
+    }
 }
 
 #sign-up {
@@ -115,7 +120,9 @@ header {
     padding-right: 0
 }
 
+
 /* INIZIO JUMBOTRON */
+
 @media all and (min-width: 768px) {
     .container .jumbotron {
         padding-left: 0px;
@@ -236,7 +243,7 @@ h2 {
 
 .fab.fa-google, .fab.fa-github {
     position: absolute;
-    left: 30px;
+    left: 18%;
     top: 34%;
 }
 
@@ -253,4 +260,44 @@ p > a {
 p > a:hover {
     text-decoration: underline;
     color: #0069ff;
+}
+
+
+/* INZIO SEZIONE IMMAGINI */
+
+.col-xs-6.col-sm-2 > img {
+    max-width: 100%
+}
+
+.row.text-center.text-uppercase > h5 {
+    font-weight: 700;
+    opacity: .4
+}
+
+.row.text-center > a {
+    text-decoration: none;
+    color: #0069ff;
+    font-weight: bold;
+}
+
+.row.text-center > a:hover {
+    text-decoration: none;
+    color: #005fe6;
+}
+
+.cont-img {
+    background-color: #f3f5f9;
+    padding: 60px 0px;
+}
+
+
+/* INIZIO SEZIONE TESTO 1 */
+
+.cont-text1 {
+    padding: 60px 0px;
+
+}
+
+.first-text > p {
+    font-size: 21px;
 }

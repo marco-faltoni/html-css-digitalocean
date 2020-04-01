@@ -3,13 +3,17 @@ body {
     color: rgba(3,27,78,.7)
 }
 
-/* STILI HEADER */
+/* HEADER */
+
+@media all and (min-width: 768px) {
+    header {
+        background: url('img/bg-home.jpg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}
 header {
-    background: #0248ff url('img/bg-home.jpg');
-    background-repeat: repeat;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 800px;
+    background-color: #0248ff;
 }
 
 .header-top {
@@ -107,6 +111,28 @@ header {
     color: #fff;
     background-color:rgba(0, 0, 0, 0) ;
     border-color:rgba(0, 0, 0, 0);
+    padding-left: 0;
+    padding-right: 0
+}
+
+/* INIZIO JUMBOTRON */
+@media all and (min-width: 768px) {
+    .container .jumbotron {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 38px
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .jumbotron h1 {
+        font-size: 50px
+    }
 }
 
 .jumbotron {
@@ -114,15 +140,14 @@ header {
     color: white;
 }
 
-.formJ {
-    background-color: white;
-    padding: 25px 0px;
-    border-radius: 6px;
+.jumbotron  p {
+    margin-bottom: 40px;
 }
 
-#jumbotron {
-    padding-left: 0;
-    padding-right: 0;
+.formJ {
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 6px;
 }
 
 .form-control {

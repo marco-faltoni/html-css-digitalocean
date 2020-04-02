@@ -507,3 +507,19 @@ th > a:hover {
     background-color: hsla(0,0%,100%,.8);
     color: #0069ff;
 }
+
+/* SEZIONE FOOTER */
+.footer-bottom {
+    padding: 100px 15px;
+    background-color: #010e28;
+}
+
+dt {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+dd {
+    color: hsla(0,0%,100%,.5);
+}

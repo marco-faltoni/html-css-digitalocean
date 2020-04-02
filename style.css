@@ -44,6 +44,10 @@ header {
     margin-right: 0;
 }
 
+.zeropd {
+    padding-left: 0;
+}
+
 .header-bottom2 {
     padding-left: 15px;
     padding-right: 15px;
@@ -101,13 +105,10 @@ header {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.logo2 {
-    color: white;
-}
-
 .DigitalOcean {
     width: 190px;
     height: 45px;
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -169,10 +170,6 @@ header {
     color: white;
 }
 
-.jumbotron  p {
-    margin-bottom: 40px;
-}
-
 #jumbo {
     margin-top: 10%;
 }
@@ -220,6 +217,11 @@ h2 {
     background-color: #1633ff;
     border: none;
     color: #fff;
+}
+
+.margin-sign-up {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #separatore {
@@ -310,6 +312,11 @@ p > a:hover {
 .row.text-center > a:hover {
     text-decoration: none;
     color: #005fe6;
+}
+
+.cont-img-0 {
+    background-color: #f3f5f9;
+    padding: 60px 0px;
 }
 
 .cont-img {
@@ -514,12 +521,47 @@ th > a:hover {
     background-color: #010e28;
 }
 
+.footer-top {
+    padding-bottom: 30px;
+}
+
 dt {
     color: white;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
+    padding-bottom: 15px;
 }
 
 dd {
     color: hsla(0,0%,100%,.5);
+    padding-bottom: 7px;
+}
+
+.logo-copy {
+    padding-top: 30px;
+}
+
+#DG-icon {
+    max-width: 45px;
+}
+
+.loghi {
+    color: hsla(0,0%,100%,.5);
+    padding-top: 51px;
+}
+
+.pd {
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+.cont-bott {
+    border-top: 1px solid hsla(0,0%,100%,.2);
+}
+
+#copyright {
+    display: inline-block;
+    color: hsla(0,0%,100%,.5);
+    padding-left: 20px;
+    font-size: 12px;
 }

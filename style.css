@@ -31,18 +31,30 @@ header {
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .header-bottom {
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
+    min-height: 0px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .header-bottom2 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.jumbos {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .navbar.visible-md.visible-lg {
@@ -309,6 +321,10 @@ p > a:hover {
 
 }
 
+.first-text {
+    padding: 0 15px;
+}
+
 .first-text > p {
     font-size: 21px;
 
@@ -323,7 +339,6 @@ blockquote > p {
 }
 
 .text-content1 {
-    max-width: 900px;
     padding-top: 30px;
 }
 
@@ -335,4 +350,11 @@ blockquote > p {
 .grassetto {
     font-weight: 700;
     color: #031b4e;
+}
+
+
+/* INIZIO SEZIONE IMMAGINE 2 */
+
+.cloud {
+    max-height: 768px;
 }

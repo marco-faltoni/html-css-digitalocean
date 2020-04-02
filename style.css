@@ -411,3 +411,23 @@ blockquote > p {
 
 
 /* SEZIONE TABELLA */
+
+.back-map {
+    background-color: #031b4e;
+    /* background-image: url('img/data-center-map.svg'); */
+}
+
+.second-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+
+.h2-text {
+    color: white;
+    font-weight: bold;
+}
+
+.TB {
+    color: white;
+}

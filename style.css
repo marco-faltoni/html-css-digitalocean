@@ -340,6 +340,10 @@ blockquote > p {
     color: rgba(3,27,78,.5);
 }
 
+.fontp {
+    font-size: 16px;
+}
+
 .text-content1 {
     padding-top: 30px;
 }
@@ -347,6 +351,7 @@ blockquote > p {
 .quadrante {
     margin-left: 0px;
     margin-right: 0px;
+    padding-bottom: 20px;
 }
 
 .grassetto {
@@ -371,6 +376,10 @@ blockquote > p {
     font-size: 10px
 }
 
+.row.circles.text-center > i {
+    padding-right: 5px;
+}
+
 .chevron-left {
     padding-top: 25%;
     padding-left: 35px;
@@ -383,3 +392,22 @@ blockquote > p {
 
 
 /* SEZIONE BUSINNESS */
+
+.linkblu {
+    text-decoration: none;
+    color: #0069ff;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.linkblu:hover {
+    text-decoration: none;
+    color: #005fe6;
+}
+
+.iconblu {
+    color: #0069ff
+}
+
+
+/* SEZIONE TABELLA */

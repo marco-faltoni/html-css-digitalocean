@@ -173,6 +173,10 @@ header {
     margin-bottom: 40px;
 }
 
+#jumbo {
+    margin-top: 10%;
+}
+
 .formJ {
     background-color: white;
     padding: 25px 20px;
@@ -474,4 +478,32 @@ th > a:hover {
 
 .chevron-left2, .chevron-right2 {
     padding-top: 14%;
+}
+
+
+/* SEZIONE ACCOUNT */
+
+.back-blu {
+    background-image: url('img/bg-home.jpg');
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#h2white {
+    color: white;
+}
+
+#account {
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 15px;
+    background-color: white;
+    color: #0069ff;
+}
+
+#account:hover {
+    background-color: hsla(0,0%,100%,.8);
+    color: #0069ff;
 }

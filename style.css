@@ -322,7 +322,9 @@ p > a:hover {
 }
 
 .first-text {
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
 }
 
 .first-text > p {
@@ -358,3 +360,26 @@ blockquote > p {
 .cloud {
     max-height: 768px;
 }
+
+.caption {
+    padding: 30px 0px;
+    font-size: 15px;
+}
+
+.circles {
+    color: #0069ff;
+    font-size: 10px
+}
+
+.chevron-left {
+    padding-top: 25%;
+    padding-left: 35px;
+}
+
+.chevron-right {
+    padding-top: 25%;
+    padding-right: 35px;
+}
+
+
+/* SEZIONE BUSINNESS */

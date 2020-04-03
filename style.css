@@ -116,7 +116,7 @@ header {
     color: white;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
     .navbar-right {
         margin-right: 0
     }
@@ -333,8 +333,8 @@ p > a:hover {
 /* INIZIO SEZIONE TESTO 1 */
 
 .cont-text1 {
-    padding: 60px 15px;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .first-text {
@@ -536,7 +536,8 @@ th > a:hover {
 
 /* SEZIONE FOOTER */
 .footer-bottom {
-    padding: 100px 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #010e28;
 }
 

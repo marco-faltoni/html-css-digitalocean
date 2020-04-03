@@ -70,6 +70,7 @@ header {
     text-overflow: ellipsis;
     font-size: 11px;
     padding-bottom: 10px;
+    padding-top: 4px;
 }
 
 .Banner > p{

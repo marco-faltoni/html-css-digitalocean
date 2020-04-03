@@ -18,7 +18,6 @@ header {
 }
 
 .containermax {
-
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -79,6 +78,11 @@ header {
     font-weight: 700;
 }
 
+.Banner > p:hover{
+    cursor: pointer;
+    color: #0069ff;
+}
+
 .various > p {
     cursor: pointer;
     display: inline-block;
@@ -112,7 +116,6 @@ header {
 }
 
 @media (min-width: 768px) {
-
     .navbar-right {
         margin-right: 0
     }
@@ -151,6 +154,7 @@ header {
         padding-left: 0px;
         padding-right: 0px;
     }
+
 }
 
 @media all and (max-width: 767px) {
@@ -349,6 +353,13 @@ blockquote {
 
 blockquote > p {
     color: rgba(3,27,78,.5);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+blockquote > p:hover {
+    color: #031b4e;
+    cursor: pointer;
 }
 
 .fontp {
@@ -387,6 +398,10 @@ blockquote > p {
     font-size: 10px
 }
 
+.fa-circle {
+    cursor: pointer;
+}
+
 .row.circles.text-center > i {
     padding-right: 5px;
 }
@@ -394,11 +409,13 @@ blockquote > p {
 .chevron-left {
     padding-top: 25%;
     padding-left: 35px;
+    cursor: pointer;
 }
 
 .chevron-right {
     padding-top: 25%;
     padding-right: 35px;
+    cursor: pointer;
 }
 
 
@@ -485,6 +502,7 @@ th > a:hover {
 
 .chevron-left2, .chevron-right2 {
     padding-top: 14%;
+    cursor: pointer;
 }
 
 
@@ -535,6 +553,11 @@ dt {
 dd {
     color: hsla(0,0%,100%,.5);
     padding-bottom: 7px;
+    cursor: pointer;
+}
+
+dd:hover {
+    color: white;
 }
 
 .logo-copy {
@@ -553,6 +576,11 @@ dd {
 .pd {
     font-size: 21px;
     padding-left: 10px;
+    cursor: pointer;
+}
+
+.pd:hover {
+    color: white;
 }
 
 .cont-bott {
